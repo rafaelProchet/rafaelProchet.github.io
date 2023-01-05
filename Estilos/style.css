@@ -1,0 +1,153 @@
+h1 {
+  margin: 0%;
+  padding-bottom: 0%;
+}
+
+.title img {
+  border-radius: 50%;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  padding-top: 0%;
+  border: 9px solid;
+  border-color: orangered;
+}
+
+p {
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+
+li {
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  color: orangered;
+}
+
+.title {
+  font-family: 'Kanit', sans-serif;
+  color: rgb(2, 2, 61);
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  margin: 0%;
+  padding-bottom: 0%;
+}
+
+.boton input{
+  padding: 20px 30px;
+  margin-top: 1%;
+  nav-down: 0%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.body {
+  /*width: auto;
+  height: auto;
+  text-align: justify;*/
+  background: rgb(236, 236, 238);
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.tarjetaPrincipal {
+  background: rgb(2, 2, 61);
+  width: 96%;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+@media (min-width: 1102px) {
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+
+  .tarjeta {
+    background: rgb(2, 2, 61);
+    width: 29%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 551px) {
+  .title img {
+    border-radius: 50%;
+    width: 40%;
+    display: block;
+  }
+
+  .tarjetaPrincipal {
+    background: rgb(2, 2, 61);
+    width: 94%;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 10px;
+  }
+
+  .container {
+    /*flex-direction: column;
+        flex-direction: row ;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+
+  .tarjeta {
+    background: rgb(2, 2, 61);
+    width: 44%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .title img {
+    border-radius: 50%;
+    width: 60%;
+    display: block;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+
+  .tarjeta {
+    background: rgb(2, 2, 61);
+    width: 96%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+  }
+}
+
+.tarjeta>p {
+  text-align: left;
+}
+
+.tarjeta>h2 {
+  text-align: left;
+}
